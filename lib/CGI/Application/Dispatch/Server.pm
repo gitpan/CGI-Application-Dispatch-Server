@@ -13,7 +13,7 @@ use IO::Capture::Stdout;
 use CGI::Application::Dispatch;
 use Params::Validate ':all';
 
-our $VERSION = '0.51';
+our $VERSION = '0.52';
 
 use base qw(
 	    HTTP::Server::Simple::CGI
@@ -61,8 +61,6 @@ sub dispatch_args {
 
 sub handle_request {
   my ($self, $cgi) = @_;
-
-    warn "root: ".$self->{root_dir};
 
   # If the the request doesn't map to a static file that exists,
   # try our dispatch table. 
