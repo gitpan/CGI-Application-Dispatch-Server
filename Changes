@@ -1,0 +1,8 @@
+
+ - Support for using an CGI::Application::Dispatch subclass to provide "dispatch_args" 
+   ( Mark Stosberg )
+ - Serving static content works now, including a new document_root option (Mark Stosberg)
+
+0.03 ?
+  public release by George Hartzell
+
