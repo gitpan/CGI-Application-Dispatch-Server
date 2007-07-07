@@ -15,6 +15,7 @@ WriteMakefile
                            'Test::More' => '0.47',
                            'HTTP::Server::Simple' => '0.18',
                            'CGI::Application' => '0',
+                           'Params::Validate' => 0,
                            'CGI::Application::Dispatch' => '0',
                            'HTTP::Server::Simple::CGI' => 0,
                            'HTTP::Request' => '0',

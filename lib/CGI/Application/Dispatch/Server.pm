@@ -13,7 +13,7 @@ use IO::Capture::Stdout;
 use CGI::Application::Dispatch;
 use Params::Validate ':all';
 
-our $VERSION = '0.50';
+our $VERSION = '0.51';
 
 use base qw(
 	    HTTP::Server::Simple::CGI

@@ -1,6 +1,6 @@
 ---
 name: CGI-Application-Dispatch-Server
-version: 0.50
+version: 0.51
 author: []
 abstract: A simple HTTP server for developing with CGI::Application::Dispatch
 license: perl
@@ -16,13 +16,14 @@ requires:
   HTTP::Server::Simple::Static: 0.02
   HTTP::Status: 0
   IO::Capture::Stdout: 0
+  Params::Validate: 0
   Scalar::Util: 1.18
 build_requires:
   Test::More: 0.47
 provides:
   CGI::Application::Dispatch::Server:
     file: lib/CGI/Application/Dispatch/Server.pm
-    version: 0.50
+    version: 0.51
 generated_by: Module::Build version 0.2806
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

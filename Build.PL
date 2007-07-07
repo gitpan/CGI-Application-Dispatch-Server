@@ -16,6 +16,7 @@ my $build = Module::Build->new(
         'HTTP::Server::Simple'         => '0.18',
         'HTTP::Server::Simple::Static' => '0.02',
         'HTTP::Server::Simple::CGI'    => 0,
+        'Params::Validate'             => 0, 
     },
     optional => {
     },

@@ -1,4 +1,7 @@
-
+0.51 Fri Jul  6 22:58:09 EDT 2007
+  - Params::Validate added as required module in Build.PL  
+    
+0.50
  - Support for using an CGI::Application::Dispatch subclass to provide "dispatch_args" 
    ( Mark Stosberg )
  - Serving static content works now, including a new document_root option (Mark Stosberg)
