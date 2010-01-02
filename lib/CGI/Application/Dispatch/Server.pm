@@ -13,7 +13,7 @@ use IO::Capture::Stdout;
 use CGI::Application::Dispatch;
 use Params::Validate ':all';
 
-our $VERSION = '0.52';
+our $VERSION = '0.53';
 
 use base qw(
 	    HTTP::Server::Simple::CGI
@@ -142,6 +142,9 @@ __END__
 CGI::Application::Dispatch::Server - A simple HTTP server for developing with CGI::Application::Dispatch
 
 =head1 SYNOPSIS
+
+B<This module is no longer maintained or recommended. Use
+L<CGI::Application::Server> instead, which can do all this can and more.>
 
   use CGI::Application::Dispatch::Server;
 

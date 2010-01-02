@@ -1,4 +1,9 @@
 
+0.53 Fri Jan  1 18:50:33 EST 2010
+
+  No code changes.
+  - Add explicit note that CGI::Application::Server is now recommended instead.
+
 0.52 Sat Jul  7 08:48:45 EDT 2007
 
   - Removed debugging statement accidently left in the code.
